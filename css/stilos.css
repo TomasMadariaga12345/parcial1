@@ -1,0 +1,68 @@
+.contenedor{
+
+    display: grid;
+    grid-template-columns: 20% 10% 10% 10%;
+    grid-template-rows: 38% 38%;
+    gap: 6px;
+}
+
+.imagen1{
+
+    grid-row: 1 / 2;
+
+
+}
+
+.imagen2{
+
+   grid-column: 2 / 4;
+}
+
+.imagen3{
+
+    grid-column: 2 / 4;
+    grid-row:  2 / 4 ;
+}
+
+.imagen4{
+
+    grid-column: 3 / 3;
+    grid-row:  2 / 3 ;
+
+}
+
+.barraBusqueda{
+
+    align-items: 10%;
+    display: flex;
+    grid-template-columns: auto auto auto;
+    
+    
+    
+}
+.img1{
+
+    grid-row: 1 / 2;
+
+
+}
+
+.img2{
+
+   grid-column: 2 / 4;
+}
+
+.img3{
+
+    grid-column: 2 / 4;
+    grid-row:  2 / 4 ;
+}
+
+.img4{
+
+    grid-column: 3 / 3;
+    grid-row:  2 / 3 ;
+}
+
+
+
